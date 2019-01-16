@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "George Argyros 23"
+title                    : "George Argyros"
 title_separator          : "-"
 name                     : &name "George Argyros"
 description              : &description "personal description"
@@ -80,12 +80,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "George Argyros"
   avatar           : "IMG-2457.jpg"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "PhD Graducate, Columbia University. My main interests lie in program analysis, security, machine learning and cryptography."
+  location         : "New York, NY, USA"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=4D_buNcAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :

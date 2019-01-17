@@ -30,13 +30,11 @@ in order to hide the location of their users.
 Using these algorithms, our team developed attacks
 affecting a number of popular services such as Facebook, Tinder, Foursquare and
 many others.
-
 Finally, we provide information-theoretic lower bounds 
 on the number of queries required by such attacks and provide a simple defense mechanism to
 address such attacks which is currently adopted by Facebook.
 
 For more information read the [full journal version of our paper](/files/tops2017.pdf), our [CCS 2015 paper](/files/ccs2015.pdf) and also check our [LBS auditing framework](https://github.com/nettrino/LBSProximityAuditor).
-
 
 ## Derandomization Attacks against Web Applications (2012)
 Secure randomness generation is of fundamental importance in modern applications. From session identifiers, to CSRF 

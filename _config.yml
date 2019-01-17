@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "George Argyros 231"
+title                    : "George Argyros"
 title_separator          : "-"
 name                     : &name "George Argyros"
 description              : &description "personal description"
@@ -178,7 +178,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
   talks:

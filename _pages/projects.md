@@ -24,5 +24,5 @@ user accounts and affected a large number of applications including Joomla,
 Wikimedia, eCommerce and others. According to a third party estimate around 10\%
 of Internet applications were affected by our attacks.
 
-For more information see the presentation from our Usenix Security 2012 paper: 
+For more information see the presentation from our [Usenix Security 2012 paper](/files/usenix12.pdf): 
 {% include youtubePlayer.html id= page.php_video_id %}

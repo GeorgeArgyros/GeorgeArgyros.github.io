@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "George Argyros 231"
+title                    : "George Argyros"
 title_separator          : "-"
 name                     : &name "George Argyros"
 description              : &description "personal description"

@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "George Argyros"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "George Argyros"
 description              : &description "personal description"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "George Argyros lala"
+  name             : "George Argyros"
   avatar           : "IMG-2457.jpg"
   bio              : "PhD Graducate, Columbia University. My main interests lie in program analysis, security, machine learning and cryptography."
   location         : "New York, NY, USA"

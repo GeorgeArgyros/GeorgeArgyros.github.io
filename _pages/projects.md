@@ -9,12 +9,6 @@ php_video_id: yE0qTTi-_iQ
 
 
 
-## Query Learning for Security Testing (2016 - Present)
-
-### Learnability of Symbolic Automata and Transducers (2018 - Present)
-
-
-## Symbolic Execution in Web Applications
 
 
 ## Breaking Location Privacy (2014)

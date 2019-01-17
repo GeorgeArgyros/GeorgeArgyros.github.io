@@ -3,6 +3,7 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
+php_video_id: yE0qTTi-_iQ
 ---
 
 
@@ -24,4 +25,4 @@ Wikimedia, eCommerce and others. According to a third party estimate around 10\%
 of Internet applications were affected by our attacks.
 
 For more information see the presentation from our Usenix Security 2012 paper: 
-{% include youtubePlayer.html id=yE0qTTi-_iQ %}
+{% include youtubePlayer.html id= page.php_video_id %}

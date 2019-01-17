@@ -35,8 +35,7 @@ Finally, we provide information-theoretic lower bounds
 on the number of queries required by such attacks and provide a simple defense mechanism to
 address such attacks which is currently adopted by Facebook.
 
-For more information read the [full journal version of our paper](/files/tops2017.pdf), our  
-[CCS 2015 paper](/files/ccs2015.pdf) and also check our [LBS auditing framework](https://github.com/nettrino/LBSProximityAuditor).
+For more information read the [full journal version of our paper](/files/tops2017.pdf), our [CCS 2015 paper](/files/ccs2015.pdf) and also check our [LBS auditing framework] (https://github.com/nettrino/LBSProximityAuditor).
 
 
 ## Derandomization Attacks against Web Applications (2012)
@@ -56,5 +55,5 @@ user accounts and affected a large number of applications including Joomla,
 Wikimedia, eCommerce and others. According to a third party estimate, around 10%
 of Internet applications were affected by our attacks.
 
-For more information see the presentation from our [Usenix Security 2012 paper](/files/usenix12.pdf) and also check out our online gaussian solving framework and the snowflake framework for bruteforcing seeds. Finally, our secure random bytes implementation can be found here: 
+For more information see the presentation from our [Usenix Security 2012 paper](/files/usenix12.pdf) and also check out our [online gaussian solving framework](https://github.com/GeorgeArgyros/mt_derand) and the [snowflake framework](https://github.com/GeorgeArgyros/snowflake) for bruteforcing PRG seeds. Finally, check our [secure random bytes implementation](https://github.com/GeorgeArgyros/Secure-random-bytes-in-PHP) for PHP applications.
 {% include youtubePlayer.html id= page.php_video_id %}

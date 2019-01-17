@@ -3,11 +3,11 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/
+  - title: "Projects"
+    url: /projects/
 
-  - title: "Teaching"
-    url: /teaching/
+#  - title: "Teaching"
+#    url: /teaching/
 
 #  - title: "Portfolio"
 #    url: /portfolio/
@@ -18,8 +18,8 @@ main:
   - title: "CV"
     url: /files/cv.pdf
 
-  -title: "Resume"
-   url: /files/resume.pdf
+  - title: "Resume"
+    url: /files/resume.pdf
 
 #  - title: "Guide"
 #    url: /markdown/

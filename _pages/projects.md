@@ -3,6 +3,7 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
+php_video_id: yE0qTTi-_iQ
 ---
 
 
@@ -20,7 +21,8 @@ Using our techniques, we crafted practical exploits which allowed us to predict
 the password reset tokens used in order to reset a user's password in a number of
 different PHP applications.  Our attacks allowed an attacker to takeover arbitrary
 user accounts and affected a large number of applications including Joomla,
-Wikimedia, eCommerce and others. According to a third party estimate around 10\%
+Wikimedia, eCommerce and others. According to a third party estimate around 10%
 of Internet applications were affected by our attacks.
 
-For more information see the presentation from our Usenix Security 2012 paper: 
+For more information see the presentation from our [Usenix Security 2012 paper](/files/usenix12.pdf): 
+{% include youtubePlayer.html id= page.php_video_id %}

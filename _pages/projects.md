@@ -106,8 +106,8 @@ on the number of queries required by such attacks and provide a simple defense m
 address such attacks which is currently adopted by Facebook.
 
 For more information read the [full journal version of our paper](/files/tops2017.pdf), 
-our [CCS 2015 paper](/files/ccs2015.pdf) and also check our [LBS auditing framework]
-(https://github.com/nettrino/LBSProximityAuditor).
+our [CCS 2015 paper](/files/ccs2015.pdf) and also check our 
+[LBS auditing framework](https://github.com/nettrino/LBSProximityAuditor).
 
 
 ## Derandomization Attacks Against Web Applications (2012)

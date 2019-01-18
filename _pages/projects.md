@@ -17,10 +17,12 @@ During our work on using active learning algorithms for symbolic automata and tr
 
 In this project, our goal is to study under which conditions, i.e. for which predicate and function families, 
 symbolic automata and transducers are efficiently learnable. In our recent [paper](/files/cav18.pdf) published in CAV 2018,
-we presented a novel learning algorithm for symbolic automata, **MAT&ast;**, which is a modular algorithm able to learn 
+we presented a novel learning algorithm for symbolic automata, MAT\*, which is a modular algorithm able to learn 
 s-FAs over any learnable boolean algebra for which a learning algorithm is provided. Moreover, we provide a characterization
-of the s-FAs which are efficiently learnable by MAT&ast; and conjecture that MAT* captures the class of all efficiently learnable s-FAs.
+of the s-FAs which are efficiently learnable by MAT\* and conjecture that MAT* captures the class of all efficiently learnable s-FAs.
 We are currently extending these results for the case of symbolic transducers. 
+
+The implementation of MAT\* as well as all benchmarks from our paper are part of the [symbolic automata library](https://github.com/lorisdanto/symbolicautomata).
 
 
 ## Active Learning for Security Testing (2016-2017)

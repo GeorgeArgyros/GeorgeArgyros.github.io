@@ -26,18 +26,33 @@ The implementation of MAT\* as well as all benchmarks from our paper are part of
 
 
 ## Active Learning for Security Testing (2016-2017)
-Many important security properties in modern applications come as a result of incorrect or non-standard parsing of various types of 
-source code, protocols or file formats. For example, code injection attacks are a result of an incorrect parsing which results in confusing data with code. Other recent examples include . 
+Many important security properties in modern applications come as a result of incorrect or non-standard parsing of 
+various types of source code, protocols or file formats. For example, code injection attacks are a result of 
+an incorrect parsing which results in confusing data with code. Other recent examples include .A term which we believe 
 
-Motivated by the above, we developed an approach to test for issues results from invalid parsing by first inferring a formal model 
-of the parser in the form of an automaton and then, exploiting the nice properties automata have to verify if the parser satisfies or violates certain security properties. One of the most appealing aspects of our approach is the capability to efficiently compare 
-automata and find inputs which produce different results, effectively allowing us to compute *parser differentials*, a capability 
-which allows us to effectively test for many high level security properties. 
+Our goal is this project was to develop a practical testing approach for detecting *parser logic* bugs.
+Our approach works by first inferring a formal model of the parser in the form of an automaton and then, 
+exploiting the nice properties of automata to verify  if the parser satisfies or violates certain security properties. 
+One of the most appealing aspects of our approach is the capability to efficiently compare automata and find inputs 
+which produce different results, effectively allowing us to compute *parser differentials*, a capability which 
+allows us to effectively test many parsing logic bugs.
 
-Based on the idea above we have developed two distinct systems for testing different security properties.
-
+Based on the above idea we have developed two distinct systems for testing different security properties.
 
 ### LightBulb framework: Learning based testing of sanitizers and filters.
+Code injection attacks ... 
+
+In the course of two papers, we developed the Lightbulb framework which offers two distinct 
+learning-based testing approaches. 
+Firstly, we developed Grammar Oriented Filter Auditing (GOFA), an approach which allows the user to 
+provide a Context Free Grammar of attack strings (eg., HTML strings leading to Javascript execution or 
+SQL suffixes for SQL Injection attacks) and afterwards, we use the grammar to drive the learning 
+algorithm and attempt to find attacks in the target filter or sanitizer. 
+Our second approach, called SFADiff, instead of using a user provided grammar, 
+uses another instance of a learning algorithm to infer the grammar from a language runtime, 
+such as a Web browser or an SQL Database, thus taking into account the differences between each implementation
+and providing greater testing accuracy. 
+Using these approaches we found more than 15 vulnerabilities in many popular Web Application Firewalls. 
 
 
 For more information check our [Oakland 2016 paper](/files/snp16.pdf) and our [CCS 2016](/files/ccs16.pdf) paper. The lightbulb framework is available in [Github](https://github.com/lightbulb-framework/lightbulb-framework).
@@ -48,7 +63,15 @@ The following [Blackhat Europe 2016](https://blackhat.com) talk gives an overvie
 
 
 ### HVLearn: Learning-based testing of SSL/TLS hostname verification.
+The hostname verification functionality is a fundamental functionality in the SSL/TLS protocol. The purpose of the hostname
+verification functionality is to check that a domain name matches the hostname in the a certificate. The complexity of the 
+procedure comes from the fact that instead of a single string matching routine, the SSL/TLS protocol gives the capability
+to utilize wildcards in order to specify a range of domain names to match with the certificate. Incorrect implementation of
+the these rules can result in severe security vulnerabilities such as man-in-the-middle attacks and others. 
 
+To effectively test this parsing functionality, we developed HVLearn, a tool which uses automata learning algorithms to 
+learn DFA models of the hostname verification implementation of different libraries and then uses either differential testing to find differences between implementation or can check whether the inferred parsers comply with regular expression
+rules. Using HVLearn we found 8 unique violations of the RFC specification in several different SSL/TLS libraries.
 
 For more information check our [Oakland 2017 paper](/files/snp17.pdf) and try out the [HVLearn tool](https://github.com/HVLearn/HVLearn).
 
@@ -79,7 +102,7 @@ address such attacks which is currently adopted by Facebook.
 
 For more information read the [full journal version of our paper](/files/tops2017.pdf), our [CCS 2015 paper](/files/ccs2015.pdf) and also check our [LBS auditing framework](https://github.com/nettrino/LBSProximityAuditor).
 
-## Derandomization Attacks against Web Applications (2012)
+## Derandomization Attacks Against Web Applications (2012)
 Secure randomness generation is of fundamental importance in modern applications. From session identifiers, to CSRF 
 and password reset tokens, the secure generation of random bytes lies in the heart of securing modern applications.
 

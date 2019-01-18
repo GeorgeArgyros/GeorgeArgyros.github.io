@@ -40,7 +40,9 @@ Based on the idea above we have developed two distinct systems for testing diffe
 ### LightBulb framework: Learning based testing of sanitizers and filters.
 
 
+For more information check our [Oakland 2016 paper](/files/snp16.pdf) and our [CCS 2016](/files/ccs16.pdf) paper. The lightbulb framework is available in [Github](https://github.com/lightbulb-framework/lightbulb-framework).
 
+The following [Blackhat Europe 2016](https://blackhat.com) talk gives an overview of the lightbulb framework.
 {% include youtubePlayer.html id= page.lightbulb_video_id %}
 
 
@@ -48,6 +50,7 @@ Based on the idea above we have developed two distinct systems for testing diffe
 ### HVLearn: Learning-based testing of SSL/TLS hostname verification.
 
 
+For more information check our [Oakland 2017 paper](/files/snp17.pdf) and try out the [HVLearn tool](https://github.com/HVLearn/HVLearn).
 
 
 

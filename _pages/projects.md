@@ -26,16 +26,27 @@ The implementation of MAT\* as well as all benchmarks from our paper are part of
 
 
 ## Active Learning for Security Testing (2016-2017)
+Many important security properties in modern applications come as a result of incorrect or non-standard parsing of various types of 
+source code, protocols or file formats. For example, code injection attacks are a result of an incorrect parsing which results in confusing data with code. Other recent examples include . 
+
+Motivated by the above, we developed an approach to test for issues results from invalid parsing by first inferring a formal model 
+of the parser in the form of an automaton and then, exploiting the nice properties automata have to verify if the parser satisfies or violates certain security properties. One of the most appealing aspects of our approach is the capability to efficiently compare 
+automata and find inputs which produce different results, effectively allowing us to compute *parser differentials*, a capability 
+which allows us to effectively test for many high level security properties. 
+
+Based on the idea above we have developed two distinct systems for testing different security properties.
 
 
+### LightBulb framework: Learning based testing of sanitizers and filters.
 
-### LightBulb framework:
+
 
 {% include youtubePlayer.html id= page.lightbulb_video_id %}
 
 
 
-### HVLearn: 
+### HVLearn: Learning-based testing of SSL/TLS hostname verification.
+
 
 
 

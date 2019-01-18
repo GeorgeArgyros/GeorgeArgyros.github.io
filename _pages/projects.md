@@ -7,6 +7,31 @@ php_video_id: yE0qTTi-_iQ
 ---
 
 
+## Learnability of Symbolic Automata and Transducers (2018)
+Symbolic automata (s-FAs) and transducers (s-FTs) extend classical automata and transducers by allowing 
+transitions to be taken over predicates instead of indvidual symbols.
+During our work on using active learning algorithms for symbolic automata and transducers for testing
+(see Active Learning for Security Testing below), a fundamental question came up: 
+*For which type of predicates (i.e. Boolean algebras) are s-FAs efficiently learnable?* 
+
+In this project, our goal is to study under which conditions, i.e. for which predicate and function families, 
+symbolic automata and transducers are efficiently learnable. In our recent [paper](/files/cav2018.pdf) published in CAV 2018,
+we presented a novel learning algorithm for symbolic automata, **MAT***, which is a modular algorithm able to learn 
+an s-FA over any learnable boolean algebra for which a learning algorithm is provided. Moreover, we provide a characterization
+of the s-FAs which are efficiently learnable by MAT* and conjecture that MAT* captures the class of all efficiently learnable s-FAs.
+We are currently extending these results for the case of symbolic transducers. 
+
+
+
+
+
+## Active Learning for Security Testing (2016)
+Many 
+
+
+### LightBulb framework:
+
+### HVLearn: 
 
 
 

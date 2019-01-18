@@ -14,4 +14,4 @@ During my PhD studies I was advised by professors Angelos Keromytis and Tal Malk
 for interpreted languages to learning-based methods for testing, with a short interlude of attacking location-based services.
 For more information on my work, check out my [projects](/projects/) and [publications](/publications/).
 
-The artistic depiction of myself in the picture, was quickly made by the talented artistic and good friend [Yannis Selimiotis](https://www.instagram.com/yiannis.selimiotis/).
+The artistic depiction of myself in the picture, was quickly made by the talented artist and good friend [Yannis Selimiotis](https://www.instagram.com/yiannis.selimiotis/).

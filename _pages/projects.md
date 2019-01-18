@@ -4,6 +4,7 @@ title: "Projects"
 permalink: /projects/
 author_profile: true
 php_video_id: yE0qTTi-_iQ
+lightbulb_video_id: f-1k0fNjkeY
 ---
 
 
@@ -15,21 +16,22 @@ During our work on using active learning algorithms for symbolic automata and tr
 *For which type of predicates (i.e. Boolean algebras) are s-FAs efficiently learnable?* 
 
 In this project, our goal is to study under which conditions, i.e. for which predicate and function families, 
-symbolic automata and transducers are efficiently learnable. In our recent [paper](/files/cav2018.pdf) published in CAV 2018,
+symbolic automata and transducers are efficiently learnable. In our recent [paper](/files/cav18.pdf) published in CAV 2018,
 we presented a novel learning algorithm for symbolic automata, **MAT***, which is a modular algorithm able to learn 
-an s-FA over any learnable boolean algebra for which a learning algorithm is provided. Moreover, we provide a characterization
+s-FAs over any learnable boolean algebra for which a learning algorithm is provided. Moreover, we provide a characterization
 of the s-FAs which are efficiently learnable by MAT* and conjecture that MAT* captures the class of all efficiently learnable s-FAs.
 We are currently extending these results for the case of symbolic transducers. 
 
 
+## Active Learning for Security Testing (2016-2017)
 
-
-
-## Active Learning for Security Testing (2016)
-Many 
 
 
 ### LightBulb framework:
+
+{% include youtubePlayer.html id= page.lightbulb_video_id %}
+
+
 
 ### HVLearn: 
 

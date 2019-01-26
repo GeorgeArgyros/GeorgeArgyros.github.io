@@ -129,6 +129,6 @@ user accounts and affected a large number of applications including Joomla,
 Wikimedia, eCommerce and others. According to a third party estimate, around 10%
 of Internet applications were affected by our attacks.
 
-For more information check our [Usenix Security 2012 paper](/files/usenix12.pdf). Also, check out our [online gaussian solving framework](https://github.com/GeorgeArgyros/mt_derand) and the [snowflake framework](https://github.com/GeorgeArgyros/snowflake) for bruteforcing PRG seeds. Finally, check our [secure random bytes implementation](https://github.com/GeorgeArgyros/Secure-random-bytes-in-PHP) for PHP applications.
+For more information check our [Usenix Security 2012 paper](/files/usenix12.pdf). Also, check out our [online gaussian solving framework](https://github.com/GeorgeArgyros/mt_derand) for inverting the Mersennes Twister PRG and the [snowflake framework](https://github.com/GeorgeArgyros/snowflake) for bruteforcing PRG seeds. Finally, check our [secure random bytes implementation](https://github.com/GeorgeArgyros/Secure-random-bytes-in-PHP) for PHP applications.
 Below you can find the talk given in Usenix security 2012.
 {% include youtubePlayer.html id= page.php_video_id %}

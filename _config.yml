@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "George Argyros"
   avatar           : "IMG-2457.jpg"
-  bio              : "PhD Graducate, Columbia University. My main interests lie in program analysis, security, machine learning and cryptography."
+  bio              : "PhD Graduate, Columbia University"
   location         : "New York, NY, USA"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=4D_buNcAAAAJ&hl=en"
-  email            :
+  email            : argyros.george@gmail.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

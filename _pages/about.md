@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,4 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-Hello! My name George (In Greek: Yorgos) Argyros, and I am a recent PhD graduate from Columbia University.
+My name is George (Yorgos) Argyros, and I am a recent Ph.D. graduate from Columbia University. I am generally interested in program analysis and verification, machine learning, security, cryptography and any combination of these fields.
+
+In the distant past, I used to do a lot of applied security such as penetration testing, source code auditing and exploit development. During my undergraduate studies in the University of Athens, I was lucky enough to be advised by Aggelos Kiayias with whom I worked in various cryptography projects and mainly on the fun topic of randomness attacks against PHP applications. These attacks affected a number of popular PHP projects such as Joomla, Wikipedia and overall affected approximately 10% of internet applications.
+
+During my Ph.D. at Columbia University, I was advised by professors Angelos Keromytis and Tal Malkin. My work revolved mostly around program analysis and bug finding techniques ranging from symbolic execution for interpreted languages to learning-based methods for testing, with a short interlude of attacking location-based services. Our location attacks affected a number of popular services such as Facebook, Tinder, Foursquare and resulted in a bug-bounty award from Facebook. Our bug-finding techniques resulted in the discovery of over 30 vulnerabilities in security critical components such as Web Application Firewalls and SSL/TLS libraries.
+
+For more information on my work, check out my [projects](/projects/) and [publications](/publications/).
+
+The artistic depiction of myself in the picture, was quickly made by the talented artist and good friend [Yannis Selimiotis](https://www.instagram.com/yiannis.selimiotis/).

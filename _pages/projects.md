@@ -29,9 +29,9 @@ Many security vulnerabilities in modern applications are  a result of incorrect 
 various protocols and file formats. For example, code injection attacks are a result of 
 incorrect parsing which confuses data with code. Other recent examples include 
 [URL parser differentials](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf) 
-and [path normalization differentials](https://i.blackhat.com/us-18/Wed-August-8/us-18-Orange-Tsai-Breaking-Parser-Logic-Take-Your-Path-Normalization-Off-And-Pop-0days-Out-2.pdf) which resulted in critical vulnerabilities in popular services such as Uber and Amazon. This type of vulnerabilities are often referred to as *parser logic* bugs.
+and [path normalization differentials](https://i.blackhat.com/us-18/Wed-August-8/us-18-Orange-Tsai-Breaking-Parser-Logic-Take-Your-Path-Normalization-Off-And-Pop-0days-Out-2.pdf) which resulted in critical vulnerabilities in popular services such as Uber and Amazon. This type of vulnerabilities are often referred to as *parsing logic* bugs.
 
-Our goal is this project was to develop a practical testing approach for detecting *parser logic* bugs.
+Our goal is this project was to develop a practical testing approach for detecting *parsing logic* bugs.
 Our approach works by first inferring a formal model of the parser in the form of an automaton and then, 
 exploiting the nice properties of automata to verify that the parser satisfies certain security properties. 
 One of the most appealing aspects of our approach is the capability to efficiently compare different parsers 
@@ -129,6 +129,6 @@ user accounts and affected a large number of applications including Joomla,
 Wikimedia, eCommerce and others. According to a third party estimate, around 10%
 of Internet applications were affected by our attacks.
 
-For more information check our [Usenix Security 2012 paper](/files/usenix12.pdf). Also, check out our [online gaussian solving framework](https://github.com/GeorgeArgyros/mt_derand) and the [snowflake framework](https://github.com/GeorgeArgyros/snowflake) for bruteforcing PRG seeds. Finally, check our [secure random bytes implementation](https://github.com/GeorgeArgyros/Secure-random-bytes-in-PHP) for PHP applications.
+For more information check our [Usenix Security 2012 paper](/files/usenix12.pdf). Also, check out our [online gaussian solving framework](https://github.com/GeorgeArgyros/mt_derand) for inverting the Mersennes Twister PRG and the [snowflake framework](https://github.com/GeorgeArgyros/snowflake) for bruteforcing PRG seeds. Finally, check our [secure random bytes implementation](https://github.com/GeorgeArgyros/Secure-random-bytes-in-PHP) for PHP applications.
 Below you can find the talk given in Usenix security 2012.
 {% include youtubePlayer.html id= page.php_video_id %}
